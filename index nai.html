@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5503/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./index nai_files/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link href="./index nai_files/css2" rel="stylesheet">
+</head>
+  <body>
+<h1>NAIROBI BRANCH</h1>
+<p>Nairobi is the capital and largest city of Kenya, a country located in East Africa. <br>It is also one of the major cities in the African continent. Nairobi is known for its vibrant culture, diverse population, and economic significance in the region.
+  Nairobi is a dynamic and bustling metropolis that plays a pivotal role in Kenya's and East Africa's economic and cultural landscape.<br> It offers a unique blend of urban education, wildlife, and natural beauty, making it a significant destination for both business,education and tourism.
+</p>
+
+<p>Enogh about our city: 😀 <br> <b>Milele Africa institute Nairobi Branche </b> is based in the heart of Nairobi City,  
+  Coffee Plaza, Railway lane, Coffee Plaza, Off Haile Selassie Ave, Nairobi, Kenya</p>
+
+
+
+
+<style>
+  * {box-sizing: border-box;}
+  body {font-family: Verdana, sans-serif;}
+  .mySlides {display: none;}
+  
+  
+  /* Slideshow container */
+  .slideshow-container {
+   
+  
+ 
+  
+ 
+  .active {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  img{
+    align-items: left;
+    padding-left: 2px;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .mySlides fade{
+    padding-top: 80ch;
+    align-items: left;
+}
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 100px) {
+    .text {font-size: 11px}
+  }
+  </style>
+
+  
+  
+  
+  
+  <div class="slideshow-container">
+  
+  <div class="mySlides fade" style="display: none;">
+    <div class="numbertext"></div>
+    <img src="./index nai_files/photo-1517462035531-76bc910a6903">
+  </div>
+  
+  <div class="mySlides fade" style="display: block;">
+    <div class="numbertext"></div>
+    <img src="./index nai_files/photo-1598941101837-e3fdd6d94b24">
+  </div>
+  
+  <div class="mySlides fade" style="display: none;">
+    <div class="numbertext"></div>
+    <img src="./index nai_files/photo-1611348524140-53c9a25263d6">
+  </div>
+ 
+   
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot active" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+
+  </div>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+  <script>
+  let slideIndex = 0;
+  showSlides();
+  
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5500); // Change image every 2 seconds
+  }
+  </script>
+ <div>
+
+<p>good new is on ur way</p>
+ </div>
+
+<!-- Code injected by --></div></body></html>
